@@ -1,0 +1,71 @@
+[{
+        "id": "1",
+        "name": "Harry Potter",
+        "image": "https://pbs.twimg.com/profile_images/876137969777823745/BE-fu86q_400x400.jpg",
+        "house": "Gryffindor"
+        
+    },
+    {
+        "id": "2",
+        "name": "Hermione Granger",
+        "image": "https://pbs.twimg.com/profile_images/459331920577327105/ghvVec_C_400x400.jpeg",
+        "house": "Gryffindor"  
+    },
+    {
+        "id": "3",
+        "name": "Draco Malfoy",
+        "image": "http://www.versusbattle.com/wp-content/uploads/2016/06/draco-malfoy-boy-wizard.jpg",
+        "house": "Slytherin"
+        
+    },
+    {
+        "id": "4",
+        "name": "Ron Weasley",
+        "image": "https://pbs.twimg.com/profile_images/480206646971342849/EWm4a9zG_400x400.jpeg",
+        "house": "Gryffindor"
+        
+    },
+    {
+        "id": "5",
+        "name": "Luna Lovegood",
+        "image": "http://cdn.teen.com/wp-content/uploads/2015/05/harrypotter-luna-lovegood-wearing-lion-hat.jpg",
+        "house": "Ravenclaw"
+        
+    },
+    {
+        "id": "6",
+        "name": "Severus Snape",
+        "image": "https://pbs.twimg.com/profile_images/378800000408529086/5108c0356be611a5509f3d869c2dbd3d_400x400.jpeg",
+        "house": "Slytherin"
+        
+    },
+    {
+        "id": "7",
+        "name": "Cedric Diggory",
+        "image": "https://pbs.twimg.com/profile_images/2327663419/5wg6o2c66d8vw60c1nv5_400x400.png",
+        "house": "Hufflepuff"
+        
+    },
+    {
+        "id": "8",
+        "name": "Cho Chang",
+        "image": "https://pbs.twimg.com/profile_images/874189213410840576/dHAYvDLd.jpg",
+        "house": "Ravenclaw"
+        
+    },
+    {
+        "id": "9",
+        "name": "Pansy Parkinson",
+        "image": "https://pbs.twimg.com/profile_images/568601868692377600/tYBpFhN0.jpeg",
+        "house": "Slytherin"
+        
+    },
+    {
+        "id": "10",
+        "name": "Neville Longbottom",
+        "image": "https://pbs.twimg.com/profile_images/1450156783/tumblr_l5qeg7f0Hk1qchucbo1_500_1__400x400.png",
+        "house": "Gryffindor"
+        
+    }
+
+]
