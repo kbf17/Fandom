@@ -19,29 +19,28 @@ app.route('/api/characters')
     });
 
 app.route('/api/characters/house/:house')
-    .get(function(req, res) {
-        console.log('get single item');
-        fs.readFile(pathJSON, 'utf-8', function(err, file){
-            if (err){
-                res.status(500);
-                res.send('Unable to find single message.')
-            }
-            var house = req.params.house;
-            console.log(house);
-            var result;
-            var data = JSON.parse(file);
-            data.forEach(function(post){
-                if (post.house === house){
-                    result = post;
-                }
-            });
-            if (result) {
-                res.send(result);
+    .get(function(req, res){
+        fs.readFile(pathJSON, 'utf-8', function(err, fileContents) {
+            if (err) {
+                res.statusStatus(500);
             } else {
-                res.send(404);
+                var posts = JSON.parse(fileContents);
+                var house = req.params.house;
+                var response = posts.filter(function(post) {
+                    if(post.house){
+                        if (post.house.toLowerCase().trim() === house.toLowerCase().trim()) {
+                            return post;
+                        }
+                    }
+                });
+                if (response) {
+                    res.send(response);
+                } else {
+                    res.sendStatus(404);
+                }
             }
-        })
-    });
+        });
+    })
 
 app.route('/api/characters/one/:id')
     .get(function(req, res) {
