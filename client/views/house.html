@@ -1,7 +1,7 @@
-<h2>{{house}}</h2>
 <div ng-controller="HouseController">
+    <h1>{{allHouse[0].house}}</h1>
     <div ng-repeat="character in allHouse" class="char-div">
         <h2>{{character.name}}</h2>
-        <img src={{character.image}}>
+        <img ng-src={{character.image}}>
     </div>
 </div>
